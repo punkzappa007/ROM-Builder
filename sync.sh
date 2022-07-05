@@ -7,7 +7,7 @@ mkdir -p lineage
 cd lineage
 
 # Init Repo
-repo init --depth=1 -u $MANIFEST -b $MANIFEST_BRANCH
+repo init --depth=1 -u https://github.com/LineageOS/android.git -b lineage-19.1
 
 # Sync the Sources
 repo sync -j$(nproc --all) --force-sync --no-tags --no-clone-bundle
