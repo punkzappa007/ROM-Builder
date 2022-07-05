@@ -5,7 +5,7 @@ export MANIFEST="https://github.com/LineageOS/android.git"
 export MANIFEST_BRANCH="lineage-19.1"
 
 # Device Info
-export DEVICE="TECNO-CG8" # Codename
+export DEVICE="TECNO-CG8" # Codename 
 export OEM="TECNO"
 export PLATFORM="MT6785" # eg: sm6250, mt6765 etc.
 
