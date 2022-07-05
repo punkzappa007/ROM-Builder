@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Make the Directory if it doesn't exist
-mkdir -p $SYNC_PATH
+mkdir -p lineage
 
 # Change to the Source Directory
-cd $SYNC_PATH
+cd lineage
 
 # Init Repo
 repo init --depth=1 -u $MANIFEST -b $MANIFEST_BRANCH
